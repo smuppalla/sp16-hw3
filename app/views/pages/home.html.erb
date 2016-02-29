@@ -1,0 +1,14 @@
+<h1> Users </h1>
+<% @uzer.each do |x| %>
+    <p> Name: <%= x.username %>. Age: <%= x.age.to_s %>. Email <%= x.email %>. </p>
+<% end %>
+
+<h1> Cats </h1>
+<% @kat.each do |x| %>
+    <p> Name: <%= x.name %> </p>
+<% end %>
+
+<h1> To-Dos </h1>
+<% @td.each do |x| %>
+    <p> Name: <%= x.name %>. Description: <%= x.description %> </p>
+<% end %>
